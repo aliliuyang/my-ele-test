@@ -1,0 +1,19 @@
+//定义一个变量和一个mixin
+$baseFontSize: 37.5;//默认基准font-size
+@mixin px_rem($name, $px){
+  #{$name}: $px / $baseFontSize * 1rem;
+}
+
+
+/* clearfix */
+@mixin clearfix {
+    &:after {
+        clear: both;
+        content: '.';
+        display: block;
+        height: 0;
+        line-height: 0;
+        overflow: hidden;
+    }
+    *height: 1%;
+}

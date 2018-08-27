@@ -1,0 +1,28 @@
+/*css初始化*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font-size:16px;font-family: "微软雅黑","microsoft yahei","microsoft sans serif";background: #fff;color: #313131;} 
+a,a:hover{text-decoration:none;color:inherit;} 
+em,i{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+input,textarea{outline: none;font-family: "微软雅黑","microsoft yahei";}
+*{box-sizing: border-box;} /*使用border-box盒模型使得计算位置、大小更方便*/
+input[type='submit'],input[type='button'],input[type='reset']{-webkit-appearance: none;}/*消除iPhone上按钮显示怪异的情况*/
+    input::-webkit-input-placeholder{
+        color:#CCCCCC;
+    }
+    input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+       color:#CCCCCC;
+    }
+    input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+       color:#CCCCCC;
+    }
+    input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+       color:#CCCCCC;
+    }
+    
+   .msite{
+       position: relative;
+   }
